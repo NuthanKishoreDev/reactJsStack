@@ -8,6 +8,7 @@ function App() {
       <div style={{border: '1px solid white',margin: 'auto',marginTop: '50px'}}>
       <div style={{background: 'black',height: '70px',display: 'flex',justifyContent: 'left',alignItems: 'center',paddingLeft: '10px'}}>
       <a href='#' ><img src={logo} width="80px" alt="React logo"/></a>
+      <h1 style={{color:'white',fontFamily:'Verdana'}}>Welcome</h1>
       </div>
         
         <div className="App" style={{ justifyContent: 'center' ,paddingLeft:'10px'}}>
