@@ -8,3 +8,49 @@ body {
 h1 {
   margin-top: 30px;
 }
+
+#logoId{
+  width: 90px;
+  height: 90px;
+  margin-left: 10px;
+  display: flex;
+}
+
+
+#MainDiv{
+  background-image: url(./logo.svg);
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  background-position-x: right;
+  background-position-y: right;
+  background-blend-mode: color-burn;
+  background-image:calc(100% - 60px);
+  background-clip: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 20s linear infinite;
+}
+
+
+ul >li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
+
+span{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3.6rem;
+  font-weight: bold;
+  padding-top: 20px;
+}
