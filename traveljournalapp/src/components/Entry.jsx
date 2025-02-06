@@ -19,5 +19,6 @@ export default function Entry({name, country,image,flag,location,famousFor,descr
                 <p className="entry-text"><b>{famousFor}</b><br/>{description}</p>
             </div>
         </article>
+        
     )
 }
